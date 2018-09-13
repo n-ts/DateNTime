@@ -1,0 +1,26 @@
+{
+  "name": "dtformat",
+  "version": "1.0.0",
+  "description": "Simple way to format JavaScript Date Object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-ts/DTFormat.git"
+  },
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "date",
+    "time",
+    "format"
+  ],
+  "author": "NTS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-ts/DTFormat/issues"
+  },
+  "homepage": "https://github.com/n-ts/DTFormat#readme"
+}
