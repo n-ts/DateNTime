@@ -5,7 +5,7 @@ DateNTime is small (1.3KB minified) but powerfull tool to work with date and tim
 
 ### Examples
 ```javascript
-console.log(DateNTime("Current date and time: !MM/!DD/!YYYY - HH:mm TD"));
+console.log(DateNTime("Current date and time: !MM/!DD/!YYYY - !HH:!mm !TD"));
 // Current date and time: 09/12/2018 - 03:32 PM
 
 console.log(DateNTime("!NW, !NM !DD, !YYYY", new Date("2017-04-25")));
