@@ -1,4 +1,4 @@
-function DTFormat(_format, _date, _months, _wdays) {
+function DateNTime(_format, _date, _months, _wdays) {
   // Declare variables and set default parameters
   var f = "!YYYY-!MM-!DD !hh:!mm:!ss.!SSS",
     d = new Date(),
@@ -75,4 +75,4 @@ function DTFormat(_format, _date, _months, _wdays) {
     "TD", TD]); // get time of the day for 12-hour format AM/PM
 }
 
-module.exports = DTFormat;
+module.exports = DateNTime;
