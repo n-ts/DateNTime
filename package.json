@@ -1,5 +1,5 @@
 {
-  "name": "dtformat",
+  "name": "datentime",
   "version": "1.0.0",
   "description": "Simple way to format JavaScript Date Object",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n-ts/DTFormat.git"
+    "url": "git+https://github.com/n-ts/DateNTime.git"
   },
   "keywords": [
     "JS",
@@ -20,7 +20,7 @@
   "author": "NTS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/n-ts/DTFormat/issues"
+    "url": "https://github.com/n-ts/DateNTime/issues"
   },
-  "homepage": "https://github.com/n-ts/DTFormat#readme"
+  "homepage": "https://github.com/n-ts/DateNTime#readme"
 }
