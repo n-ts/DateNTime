@@ -1,14 +1,14 @@
-# DTFormat
+# DateNTime
 Simple way to format JavaScript Date Object.
 
-DTFormat is small (1.3KB minified) but powerfull tool to work with date and time in JavaScript. It can be used both server and client side, DTFormat's tested and working in all modern browsers and even legacy browsers like IE9 and other browsers from same era.
+DateNTime is small (1.3KB minified) but powerfull tool to work with date and time in JavaScript. It can be used both server and client side, DateNTime's tested and working in all modern browsers and even legacy browsers like IE9 and other browsers from same era.
 
 ### Examples
 ```javascript
-console.log(DTFormat("Current date and time: !MM/!DD/!YYYY - HH:mm TD"));
+console.log(DateNTime("Current date and time: !MM/!DD/!YYYY - HH:mm TD"));
 // Current date and time: 09/12/2018 - 03:32 PM
 
-console.log(DTFormat("!NW, !NM !DD, !YYYY", new Date("2017-04-25")));
+console.log(DateNTime("!NW, !NM !DD, !YYYY", new Date("2017-04-25")));
 // Tuesday, April 25, 2017
 ```
 
@@ -18,7 +18,7 @@ Default names of months and days of the week are English but it's easy to add lo
 var months_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 var wdays_FR = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
 
-console.log(DTFormat("!NW, !NM !DD, !YYYY", new Date("2017-04-25"), months_FR, wdays_FR));
+console.log(DateNTime("!NW, !NM !DD, !YYYY", new Date("2017-04-25"), months_FR, wdays_FR));
 // Mardi, avril 25, 2017
 ```
 
@@ -26,20 +26,20 @@ console.log(DTFormat("!NW, !NM !DD, !YYYY", new Date("2017-04-25"), months_FR, w
 # Installing
 
 ### Node.js
-`npm install dtformat`
+`npm install datentime`
 
 ### Browser
-Bundle / Inlcude `dtformat.min.js` file in your project and you are good to go.
+Bundle / Inlcude `datentime.min.js` file in your project and you are good to go.
 
 
 # Syntax
-Official syntax of DTFormat is following:
+Official syntax of DateNTime is following:
 
-`DTFormat(_format(String), _date(Date), _months(Array[12]), _wdays(Array[7]))`
+`DateNTime(_format(String), _date(Date), _months(Array[12]), _wdays(Array[7]))`
 
 Although, this exact order of parameters isn't required. Script will automatically detect parameters by type and arange them itself. For example if you send parameters with following order, nothing will change, it will work as expected:
 
-`DTFormat(_wdays(Array[7]), _format(String))`
+`DateNTime(_wdays(Array[7]), _format(String))`
 
 
 # Parameter Values
